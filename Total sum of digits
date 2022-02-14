@@ -1,0 +1,9 @@
+n = int(input("Enter any n: "))
+Sum = 0
+
+while(n> 0):
+    Reminder = n % 10
+    Sum = Sum + Reminder
+     n=n //10
+
+print("Sum of the digits of Given Number = %d" %Sum)
